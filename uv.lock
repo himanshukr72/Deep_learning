@@ -20,6 +20,7 @@ source = { virtual = "." }
 dependencies = [
     { name = "importlib-resources" },
     { name = "keras" },
+    { name = "keras-preprocessing" },
     { name = "matplotlib" },
     { name = "numpy" },
     { name = "pandas" },
@@ -38,6 +39,7 @@ dependencies = [
 requires-dist = [
     { name = "importlib-resources", specifier = ">=7.1.0" },
     { name = "keras", specifier = ">=3.14.1" },
+    { name = "keras-preprocessing", specifier = ">=1.1.2" },
     { name = "matplotlib", specifier = ">=3.10.9" },
     { name = "numpy", specifier = ">=2.4.6" },
     { name = "pandas", specifier = ">=3.0.3" },
@@ -643,6 +645,19 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/35/e7/97a7664581b73e4f9ff1d3a767a493b6ac5d3e0ed1926bd2b6b2c8bbccd7/keras-3.14.1.tar.gz", hash = "sha256:ef479173102ad29db89b53c232efdc3fb5ad57c28bc27ead59f3e78a1eecd05b", size = 1263647, upload-time = "2026-05-07T21:43:35.112Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/02/03/184267c1d09783dd070f1ddfd0d4beb7503139dfc7bd75b422867cf282fd/keras-3.14.1-py3-none-any.whl", hash = "sha256:ebd2c14d2af3c9de18083604d408483996407fc7d2f9ebd1d565961f96608c29", size = 1628606, upload-time = "2026-05-07T21:43:32.737Z" },
+]
+
+[[package]]
+name = "keras-preprocessing"
+version = "1.1.2"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "numpy" },
+    { name = "six" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/5e/f1/b44337faca48874333769a29398fe4666686733c8880aa160b9fd5dfe600/Keras_Preprocessing-1.1.2.tar.gz", hash = "sha256:add82567c50c8bc648c14195bf544a5ce7c1f76761536956c3d2978970179ef3", size = 163598, upload-time = "2020-05-14T03:53:48.526Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/79/4c/7c3275a01e12ef9368a892926ab932b33bb13d55794881e3573482b378a7/Keras_Preprocessing-1.1.2-py2.py3-none-any.whl", hash = "sha256:7b82029b130ff61cc99b55f3bd27427df4838576838c5b2f65940e4fcec99a7b", size = 42581, upload-time = "2020-05-14T03:53:47.192Z" },
 ]
 
 [[package]]

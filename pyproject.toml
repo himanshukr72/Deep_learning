@@ -7,6 +7,7 @@ requires-python = ">=3.12"
 dependencies = [
     "importlib-resources>=7.1.0",
     "keras>=3.14.1",
+    "keras-preprocessing>=1.1.2",
     "matplotlib>=3.10.9",
     "numpy>=2.4.6",
     "pandas>=3.0.3",
